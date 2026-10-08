@@ -1,0 +1,26 @@
+{
+  "name": "nullnet-node",
+  "version": "1.0.0",
+  "description": "NullNet Blockchain Core - Developed by Lunul Labs",
+  "main": "src/node.js",
+  "scripts": {
+    "start": "node src/node.js",
+    "validator": "node src/node.js"
+  },
+  "keywords": [
+    "NullNet",
+    "Lunul Labs",
+    "LUN",
+    "LPL",
+    "blockchain",
+    "solana-style"
+  ],
+  "author": "Lunul Labs",
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "bs58": "^5.0.0",
+    "express": "^4.19.0",
+    "tweetnacl": "^1.0.3",
+    "ws": "^8.16.0"
+  }
+}
